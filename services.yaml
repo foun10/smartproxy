@@ -1,0 +1,5 @@
+services:
+  foun10\SmartProxy\Command\SmartProxyCacheCommand:
+    class: foun10\SmartProxy\Command\SmartProxyCacheCommand
+    tags:
+      - { name: 'console.command' }

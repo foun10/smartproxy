@@ -1,0 +1,32 @@
+{
+  "name": "foun10/smartproxy",
+  "description": "",
+  "type": "oxideshop-module",
+  "keywords":    [
+    "oxid",
+    "modules",
+    "eShop"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://www.foun10.de",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "foun10 GmbH",
+      "email": "info@foun10.de"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "foun10/SmartProxy"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "foun10\\SmartProxy\\": "../../../source/modules/foun10/SmartProxy"
+    }
+  }
+}

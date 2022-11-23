@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="FOUN10_MODULES">
+        <MAINMENU id="FOUN10_SMARTPROXY">
+            <SUBMENU id="FOUN10_SMARTPROXY_CACHE" cl="foun10SmartProxyAdminCache" />
+        </MAINMENU>
+    </OXMENU>
+</OX>
