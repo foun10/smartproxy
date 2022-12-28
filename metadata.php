@@ -14,7 +14,7 @@ $aModule = [
     'title' => '<img src="../modules/foun10/foun10.png" style="height: 15px; position: relative; top: 2px;margin-right:5px" alt="foun10" />foun10 - Logiken für das Scale Smartproxy Caching',
     'description' => '',
     'thumbnail' => '../foun10.png',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'author' => 'foun10 GmbH',
     'email' => 'info@foun10.de',
     'extend' => [

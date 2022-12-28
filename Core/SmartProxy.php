@@ -202,7 +202,7 @@ class SmartProxy
             $parameterToCheck = empty($parameter) ? $request->getRequestParameter($key) : $parameter[$key];
 
             if ($parameterToCheck && $value === null
-                || $parameterToCheck === $value
+                || $parameterToCheck !== null && $parameterToCheck === $value
             ) {
                 $cacheable = false;
                 break;
