@@ -65,6 +65,13 @@ If not or if it is the first request there is some JS logic (see _JS logics_) th
 
 You can set up those replacements by extending the ``foun10\SmartProxy\Core\SmartProxy::getInputValueReplacements()`` function.
 
+### Adjustment to OXID config
+
+To make sure the stoken replacement is correct and products can be added to basket with no problem you need to adjust the config file to force session start:
+```
+$this->blForceSessionStart = true;
+```
+
 ## Caching of requests without SEO URL
 
 On Smartproxy default setup all requests to a SEO url will be cached. But you might want to cache also requests to index.php
