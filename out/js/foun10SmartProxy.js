@@ -65,7 +65,13 @@ var foun10SmartProxy = {
         XMLHttpRequest.prototype.send = async function(data) {
             var fetchNeeded = false;
             var xhrArguments = arguments[0];
-            var parameterString = decodeURIComponent(arguments[0]);
+            var parameterString = '';
+
+            try {
+                parameterString = decodeURIComponent(arguments[0]);
+            } catch (e) {
+                parameterString = arguments[0];
+            }
 
             // Check if fetch data is needed
             self.replacements.forEach(function(value) {
